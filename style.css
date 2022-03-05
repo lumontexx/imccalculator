@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(31, 31, 51);
+  font-family: normal 20pt arial;
+}
+h1 {
+  color: #04bf68;
+}
+.form {
+  background-color: #232426;
+  color: #ffff;
+  padding: 70px;
+  margin: auto;
+  height: auto;
+  width: 300px;
+  border-radius: 5%;
+  position: relative;
+  left: auto;
+  top: 20%;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.678);
+}
+
+#conteiner {
+  width: 100vw;
+  height: 100vh;
+  background: url(./img/lapis.jpg);
+  background-size: cover;
+}
+.textcenter {
+  text-align: center;
+}
