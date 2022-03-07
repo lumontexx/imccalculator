@@ -1,9 +1,31 @@
 body {
-  background-color: rgb(31, 31, 51);
+  background-color: rgb(139, 30, 202);
   font-family: normal 20pt arial;
+  margin: 0;
 }
 h1 {
   color: #04bf68;
+}
+input {
+  border: none;
+  margin: 20px 10px;
+  border-radius: 5%;
+  padding: 10px;
+  font-size: 19px;
+}
+.font19 {
+  font-size: 19px;
+}
+button {
+  background-color: #0e4b1d;
+  color: #ffff;
+  padding: 15px;
+  font-size: 18px;
+  width: 100px;
+  border-radius: 6%;
+  cursor: pointer;
+  margin: 30px auto;
+  border: none;
 }
 .form {
   background-color: #232426;
@@ -20,10 +42,8 @@ h1 {
 }
 
 #conteiner {
-  width: 100vw;
+  max-width: 100%;
   height: 100vh;
-  background: url(./img/lapis.jpg);
-  background-size: cover;
 }
 .textcenter {
   text-align: center;
