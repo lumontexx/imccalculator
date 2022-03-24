@@ -16,7 +16,7 @@ input {
 .font19 {
   font-size: 19px;
 }
-button {
+.btn {
   background-color: #0e4b1d;
   color: #ffff;
   padding: 15px;
