@@ -1,10 +1,8 @@
 function calcular() {
-  const pes = window.document.getElementById("peso");
-  const altu = window.document.getElementById("altura");
+  const pes = window.document.getElementById("peso").value;
+  const altu = window.document.getElementById("altura").value;
   const res = document.getElementById("res");
-  const n1 = Number(pes.value);
-  const n2 = Number(altu.value);
-  const imc = (n1 / (n2 * n2)).toFixed(2);
+  const imc = (pes / (altu * altu)).toFixed(2);
   if (imc <= 18.5) {
     console.log((res.innerHTML = `Seu imc é ${imc} Você está abaixo do peso`));
   } else if(imc >= 18.5 && imc <= 24.9) {
